@@ -3,3 +3,6 @@ rules:                      # Array of rules
   - base: stable            # Required. Target branch
     upstream: pyload:stable    # Required. Must be in the same fork network.
     mergeMethod: merge  # Optional, one of [none, merge, squash, rebase, hardreset], Default: none.
+  - base: libgen            # Required. Target branch
+    upstream: stable    # Required. Must be in the same fork network.
+    mergeMethod: merge  # Optional, one of [none, merge, squash, rebase, hardreset], Default: none.
